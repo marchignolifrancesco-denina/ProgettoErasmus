@@ -1,0 +1,91 @@
+[
+  {
+    "id": "PAL-EPAL-001",
+    "nome": "Europallet EPAL 120x80",
+    "categoria": "Europallet",
+    "prezzo": 14.90,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 540,
+    "descrizione": "Europallet EPAL certificato, ideale per logistica e trasporto merci.",
+    "dimensioni_cm": {
+      "lunghezza": 120,
+      "larghezza": 80,
+      "altezza": 14.4
+    },
+    "peso_kg": 25,
+    "materiale": "Legno",
+    "portata_kg": 1500,
+    "certificazioni": ["EPAL", "ISPM-15"],
+    "immagini": [
+      "https://images.unsplash.com/photo-1586864387789-628af9feed72",
+      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf"
+    ]
+  },
+  {
+    "id": "PAL-LGN-002",
+    "nome": "Pallet in legno usato 120x100",
+    "categoria": "Pallet in legno",
+    "prezzo": 8.50,
+    "valuta": "EUR",
+    "disponibilita": "limitata",
+    "quantita_magazzino": 120,
+    "descrizione": "Pallet in legno usato ma selezionato, soluzione economica e resistente.",
+    "dimensioni_cm": {
+      "lunghezza": 120,
+      "larghezza": 100,
+      "altezza": 14
+    },
+    "peso_kg": 22,
+    "materiale": "Legno",
+    "portata_kg": 1200,
+    "certificazioni": [],
+    "immagini": [
+      "https://images.pexels.com/photos/4483777/pexels-photo-4483777.jpeg"
+    ]
+  },
+  {
+    "id": "PAL-PLA-003",
+    "nome": "Pallet in plastica igienico 120x80",
+    "categoria": "Pallet in plastica",
+    "prezzo": 29.90,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 75,
+    "descrizione": "Pallet in plastica HDPE ideale per settori alimentare e farmaceutico.",
+    "dimensioni_cm": {
+      "lunghezza": 120,
+      "larghezza": 80,
+      "altezza": 15
+    },
+    "peso_kg": 18,
+    "materiale": "Plastica HDPE",
+    "portata_kg": 1000,
+    "certificazioni": ["HACCP"],
+    "immagini": [
+      "https://cdn.pixabay.com/photo/2016/11/29/09/32/pallets-1869036_1280.jpg"
+    ]
+  },
+  {
+    "id": "PAL-IND-004",
+    "nome": "Pallet industriale rinforzato 130x110",
+    "categoria": "Pallet industriale",
+    "prezzo": 19.90,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 210,
+    "descrizione": "Pallet industriale rinforzato per carichi pesanti.",
+    "dimensioni_cm": {
+      "lunghezza": 130,
+      "larghezza": 110,
+      "altezza": 15
+    },
+    "peso_kg": 30,
+    "materiale": "Legno",
+    "portata_kg": 2000,
+    "certificazioni": ["ISPM-15"],
+    "immagini": [
+      "https://images.unsplash.com/photo-1591768793355-74d04bb6608f"
+    ]
+  }
+]
