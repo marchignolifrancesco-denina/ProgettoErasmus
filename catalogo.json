@@ -8,19 +8,12 @@
     "disponibilita": "disponibile",
     "quantita_magazzino": 540,
     "descrizione": "Europallet EPAL certificato, ideale per logistica e trasporto merci.",
-    "dimensioni_cm": {
-      "lunghezza": 120,
-      "larghezza": 80,
-      "altezza": 14.4
-    },
+    "dimensioni_cm": {"lunghezza": 120,"larghezza": 80,"altezza": 14.4},
     "peso_kg": 25,
     "materiale": "Legno",
     "portata_kg": 1500,
     "certificazioni": ["EPAL", "ISPM-15"],
-    "immagini": [
-      "https://images.unsplash.com/photo-1586864387789-628af9feed72",
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf"
-    ]
+    "immagini": ["https://images.unsplash.com/photo-1586864387789-628af9feed72"]
   },
   {
     "id": "PAL-LGN-002",
@@ -31,18 +24,12 @@
     "disponibilita": "limitata",
     "quantita_magazzino": 120,
     "descrizione": "Pallet in legno usato ma selezionato, soluzione economica e resistente.",
-    "dimensioni_cm": {
-      "lunghezza": 120,
-      "larghezza": 100,
-      "altezza": 14
-    },
+    "dimensioni_cm": {"lunghezza": 120,"larghezza": 100,"altezza": 14},
     "peso_kg": 22,
     "materiale": "Legno",
     "portata_kg": 1200,
     "certificazioni": [],
-    "immagini": [
-      "https://images.pexels.com/photos/4483777/pexels-photo-4483777.jpeg"
-    ]
+    "immagini": ["https://images.pexels.com/photos/4483777/pexels-photo-4483777.jpeg"]
   },
   {
     "id": "PAL-PLA-003",
@@ -53,18 +40,12 @@
     "disponibilita": "disponibile",
     "quantita_magazzino": 75,
     "descrizione": "Pallet in plastica HDPE ideale per settori alimentare e farmaceutico.",
-    "dimensioni_cm": {
-      "lunghezza": 120,
-      "larghezza": 80,
-      "altezza": 15
-    },
+    "dimensioni_cm": {"lunghezza": 120,"larghezza": 80,"altezza": 15},
     "peso_kg": 18,
     "materiale": "Plastica HDPE",
     "portata_kg": 1000,
     "certificazioni": ["HACCP"],
-    "immagini": [
-      "https://cdn.pixabay.com/photo/2016/11/29/09/32/pallets-1869036_1280.jpg"
-    ]
+    "immagini": ["https://cdn.pixabay.com/photo/2016/11/29/09/32/pallets-1869036_1280.jpg"]
   },
   {
     "id": "PAL-IND-004",
@@ -75,17 +56,220 @@
     "disponibilita": "disponibile",
     "quantita_magazzino": 210,
     "descrizione": "Pallet industriale rinforzato per carichi pesanti.",
-    "dimensioni_cm": {
-      "lunghezza": 130,
-      "larghezza": 110,
-      "altezza": 15
-    },
+    "dimensioni_cm": {"lunghezza": 130,"larghezza": 110,"altezza": 15},
     "peso_kg": 30,
     "materiale": "Legno",
     "portata_kg": 2000,
     "certificazioni": ["ISPM-15"],
-    "immagini": [
-      "https://images.unsplash.com/photo-1591768793355-74d04bb6608f"
-    ]
+    "immagini": ["https://images.unsplash.com/photo-1591768793355-74d04bb6608f"]
+  },
+
+  {
+    "id": "PAL-PLA-005",
+    "nome": "Pallet plastica riciclata 100x120",
+    "categoria": "Pallet in plastica",
+    "prezzo": 24.90,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 95,
+    "descrizione": "Pallet in plastica riciclata per uso generico, resistente e leggero.",
+    "dimensioni_cm": {"lunghezza": 100,"larghezza": 120,"altezza": 14.5},
+    "peso_kg": 16,
+    "materiale": "Plastica riciclata",
+    "portata_kg": 900,
+    "certificazioni": [],
+    "immagini": ["https://cdn.pixabay.com/photo/2017/06/10/07/16/pallets-2388429_1280.jpg"]
+  },
+  {
+    "id": "PAL-IND-006",
+    "nome": "Pallet industriale pesante 150x120",
+    "categoria": "Pallet industriale",
+    "prezzo": 34.90,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 60,
+    "descrizione": "Pallet robusto per carichi superiori a 2 tonnellate.",
+    "dimensioni_cm": {"lunghezza": 150,"larghezza": 120,"altezza": 16},
+    "peso_kg": 40,
+    "materiale": "Legno massello",
+    "portata_kg": 2500,
+    "certificazioni": ["ISPM-15"],
+    "immagini": ["https://images.unsplash.com/photo-1593032457866-96de0b9fc684"]
+  },
+  {
+    "id": "PAL-LGN-007",
+    "nome": "Pallet in legno leggero 100x80",
+    "categoria": "Pallet in legno",
+    "prezzo": 6.90,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 200,
+    "descrizione": "Pallet economico in legno per carichi leggeri.",
+    "dimensioni_cm": {"lunghezza": 100,"larghezza": 80,"altezza": 13.5},
+    "peso_kg": 15,
+    "materiale": "Legno",
+    "portata_kg": 800,
+    "certificazioni": [],
+    "immagini": ["https://images.pexels.com/photos/38723/wood-pallet.jpg"]
+  },
+  {
+    "id": "PAL-PLA-008",
+    "nome": "Mini pallet plastica 80x60",
+    "categoria": "Pallet in plastica",
+    "prezzo": 19.50,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 110,
+    "descrizione": "Mini pallet igienico per piccoli imballaggi.",
+    "dimensioni_cm": {"lunghezza": 80,"larghezza": 60,"altezza": 12},
+    "peso_kg": 12,
+    "materiale": "Plastica HDPE",
+    "portata_kg": 600,
+    "certificazioni": ["HACCP"],
+    "immagini": ["https://cdn.pixabay.com/photo/2016/12/14/15/15/pallet-1906530_1280.jpg"]
+  },
+  {
+    "id": "PAL-IND-009",
+    "nome": "Pallet heavy duty 160x120",
+    "categoria": "Pallet industriale",
+    "prezzo": 39.90,
+    "valuta": "EUR",
+    "disponibilita": "limitata",
+    "quantita_magazzino": 45,
+    "descrizione": "Pallet rinforzato per macchinari e carichi molto pesanti.",
+    "dimensioni_cm": {"lunghezza": 160,"larghezza": 120,"altezza": 18},
+    "peso_kg": 50,
+    "materiale": "Legno massello",
+    "portata_kg": 3000,
+    "certificazioni": ["ISPM-15"],
+    "immagini": ["https://images.unsplash.com/photo-1610027200016-7b28c95efc37"]
+  },
+  {
+    "id": "PAL-PLA-010",
+    "nome": "Pallet plastica ventilato 120x100",
+    "categoria": "Pallet in plastica",
+    "prezzo": 32.90,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 80,
+    "descrizione": "Pallet plastica ventilato, ideale per frutta e verdura.",
+    "dimensioni_cm": {"lunghezza": 120,"larghezza": 100,"altezza": 15},
+    "peso_kg": 20,
+    "materiale": "Plastica HDPE",
+    "portata_kg": 1200,
+    "certificazioni": ["HACCP"],
+    "immagini": ["https://cdn.pixabay.com/photo/2015/11/07/11/03/pallet-1031863_1280.jpg"]
+  },
+  {
+    "id": "PAL-LGN-011",
+    "nome": "Pallet in legno trattato 120x80",
+    "categoria": "Pallet in legno",
+    "prezzo": 12.50,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 150,
+    "descrizione": "Pallet in legno trattato per uso esterno.",
+    "dimensioni_cm": {"lunghezza": 120,"larghezza": 80,"altezza": 14.2},
+    "peso_kg": 24,
+    "materiale": "Legno trattato",
+    "portata_kg": 1400,
+    "certificazioni": ["ISPM-15"],
+    "immagini": ["https://images.unsplash.com/photo-1581093458414-d5a9f8bc0b87"]
+  },
+  {
+    "id": "PAL-IND-012",
+    "nome": "Pallet industriale XL 200x120",
+    "categoria": "Pallet industriale",
+    "prezzo": 49.90,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 30,
+    "descrizione": "Pallet extra large per carichi voluminosi.",
+    "dimensioni_cm": {"lunghezza": 200,"larghezza": 120,"altezza": 20},
+    "peso_kg": 60,
+    "materiale": "Legno massello",
+    "portata_kg": 4000,
+    "certificazioni": ["ISPM-15"],
+    "immagini": ["https://images.unsplash.com/photo-1605129428083-73f3b7b9d2f2"]
+  },
+  {
+    "id": "PAL-PLA-013",
+    "nome": "Pallet plastica compatto 100x80",
+    "categoria": "Pallet in plastica",
+    "prezzo": 22.90,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 100,
+    "descrizione": "Pallet plastica compatto per magazzini con spazio limitato.",
+    "dimensioni_cm": {"lunghezza": 100,"larghezza": 80,"altezza": 14},
+    "peso_kg": 17,
+    "materiale": "Plastica HDPE",
+    "portata_kg": 1000,
+    "certificazioni": ["HACCP"],
+    "immagini": ["https://cdn.pixabay.com/photo/2014/12/16/22/25/pallet-569507_1280.jpg"]
+  },
+  {
+    "id": "PAL-LGN-014",
+    "nome": "Pallet legno pieghevole 120x80",
+    "categoria": "Pallet in legno",
+    "prezzo": 16.50,
+    "valuta": "EUR",
+    "disponibilita": "limitata",
+    "quantita_magazzino": 70,
+    "descrizione": "Pallet pieghevole in legno per ottimizzare lo spazio in magazzino.",
+    "dimensioni_cm": {"lunghezza": 120,"larghezza": 80,"altezza": 14.5},
+    "peso_kg": 23,
+    "materiale": "Legno",
+    "portata_kg": 1300,
+    "certificazioni": ["ISPM-15"],
+    "immagini": ["https://images.unsplash.com/photo-1581093803010-9e12c3c64f5d"]
+  },
+  {
+    "id": "PAL-IND-015",
+    "nome": "Pallet industriale rinforzato 140x120",
+    "categoria": "Pallet industriale",
+    "prezzo": 29.90,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 90,
+    "descrizione": "Pallet rinforzato adatto per trasporto e stoccaggio di carichi pesanti.",
+    "dimensioni_cm": {"lunghezza": 140,"larghezza": 120,"altezza": 16},
+    "peso_kg": 35,
+    "materiale": "Legno massello",
+    "portata_kg": 2200,
+    "certificazioni": ["ISPM-15"],
+    "immagini": ["https://images.unsplash.com/photo-1600077081672-0d401e9f02ed"]
+  },
+  {
+    "id": "PAL-PLA-016",
+    "nome": "Pallet plastica resistente 120x120",
+    "categoria": "Pallet in plastica",
+    "prezzo": 36.90,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 65,
+    "descrizione": "Pallet plastica resistente per industria alimentare e chimica.",
+    "dimensioni_cm": {"lunghezza": 120,"larghezza": 120,"altezza": 15},
+    "peso_kg": 22,
+    "materiale": "Plastica HDPE",
+    "portata_kg": 1500,
+    "certificazioni": ["HACCP"],
+    "immagini": ["https://cdn.pixabay.com/photo/2016/02/19/11/50/pallet-1207659_1280.jpg"]
+  },
+  {
+    "id": "PAL-LGN-017",
+    "nome": "Pallet legno economico 80x60",
+    "categoria": "Pallet in legno",
+    "prezzo": 5.90,
+    "valuta": "EUR",
+    "disponibilita": "disponibile",
+    "quantita_magazzino": 300,
+    "descrizione": "Pallet piccolo in legno per carichi leggeri ed economici.",
+    "dimensioni_cm": {"lunghezza": 80,"larghezza": 60,"altezza": 13},
+    "peso_kg": 10,
+    "materiale": "Legno",
+    "portata_kg": 500,
+    "certificazioni": [],
+    "immagini": ["https://images.unsplash.com/photo-1599447985155-b7d39b41e735"]
   }
 ]
