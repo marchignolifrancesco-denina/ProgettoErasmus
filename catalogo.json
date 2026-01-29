@@ -13,7 +13,7 @@
     "materiale": "Legno",
     "portata_kg": 1500,
     "certificazioni": ["EPAL", "ISPM-15"],
-    "immagini": ["https://images.unsplash.com/photo-1586864387789-628af9feed72"]
+    "immagini": ["https://m.media-amazon.com/images/I/81ChRLNQVuL.jpg"]
   },
   {
     "id": "PAL-LGN-002",
@@ -29,7 +29,7 @@
     "materiale": "Legno",
     "portata_kg": 1200,
     "certificazioni": [],
-    "immagini": ["https://images.pexels.com/photos/4483777/pexels-photo-4483777.jpeg"]
+    "immagini": ["https://puntopallet.com/wp-content/uploads/2022/01/Bancale-Grande-Usato-120x100-1.jpg"]
   },
   {
     "id": "PAL-PLA-003",
@@ -45,7 +45,7 @@
     "materiale": "Plastica HDPE",
     "portata_kg": 1000,
     "certificazioni": ["HACCP"],
-    "immagini": ["https://cdn.pixabay.com/photo/2016/11/29/09/32/pallets-1869036_1280.jpg"]
+    "immagini": ["https://www.errediforniture.it/33444/pallet-plastica-120x80-h12-5-stoccaggio-alimenti-magazzino-industriale-lavabile-igienico.jpg"]
   },
   {
     "id": "PAL-IND-004",
@@ -61,7 +61,7 @@
     "materiale": "Legno",
     "portata_kg": 2000,
     "certificazioni": ["ISPM-15"],
-    "immagini": ["https://images.unsplash.com/photo-1591768793355-74d04bb6608f"]
+    "immagini": ["https://paleteo.com/galerie/p/paleta-plastikowa-130x110-pale_4196.webp"]
   },
 
   {
@@ -78,7 +78,7 @@
     "materiale": "Plastica riciclata",
     "portata_kg": 900,
     "certificazioni": [],
-    "immagini": ["https://cdn.pixabay.com/photo/2017/06/10/07/16/pallets-2388429_1280.jpg"]
+    "immagini": ["https://victualia.it/images/w800/storage/app/public/repository/75/af90663a4cd448d1ba971afb7870c64c.png"]
   },
   {
     "id": "PAL-IND-006",
@@ -94,7 +94,7 @@
     "materiale": "Legno massello",
     "portata_kg": 2500,
     "certificazioni": ["ISPM-15"],
-    "immagini": ["https://images.unsplash.com/photo-1593032457866-96de0b9fc684"]
+    "immagini": ["https://cdn.highspeed-network.com/1344/1519792218/media/products/large/33-661-3+R.8040.R201_1.jpg"]
   },
   {
     "id": "PAL-LGN-007",
