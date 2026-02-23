@@ -1,0 +1,80 @@
+import React from 'react'
+import './Registrazione.css'
+import { NavLink } from 'react-router-dom'
+
+const Registrazione = () => {
+
+  let password1 = ""
+  let password2 = ""
+  let mail = ""
+
+  const salva =()=>{
+    if(password1 == password2)
+    {
+      //salvo da qualche parte
+    }
+    else{
+      //do un errore
+    }
+  }
+
+  const pwd =(password)=>{
+    password1 = password.target.value
+  }
+
+  const confermapwd =(password)=>{
+    password2 = password.target.value
+  }
+
+  const prendimail =(mailinput)=>{
+    mail = mailinput.target.value
+  }
+
+
+  return (
+
+    
+    <div>
+       <div class="register-container">
+    <h1>Crea Account</h1>
+    <p>Registrati per iniziare</p>
+
+    <form>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Mario" required />
+        </div>
+        <div class="form-group">
+          <label for="cognome">Cognome</label>
+          <input type="text" id="cognome" placeholder="Rossi" required />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input onChange={prendimail} type="email" id="email" placeholder="nome@email.it" required />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input onChange={pwd} type="password" id="password" placeholder="••••••••" required />
+      </div>
+
+      <div class="form-group">
+        <label for="confirm-password">Conferma Password</label>
+        <input onChange={confermapwd} type="password" id="confirm-password" placeholder="••••••••" required />
+      </div>
+
+      <button onCLick={salva} class="register-button">Registrati</button>
+    </form>
+
+    <div class="extra-links">
+      <p>Hai già un account? <NavLink to={"/login"}>Accedi</NavLink></p>
+    </div>
+  </div>
+    </div>
+  )
+}
+
+export default Registrazione

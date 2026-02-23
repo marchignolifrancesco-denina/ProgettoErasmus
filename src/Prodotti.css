@@ -1,0 +1,121 @@
+.products-container {
+  border-top: 1px solid black;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 15px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.products-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.filters select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.products-grid {
+  display: grid;
+  background-color: #eaeaea;
+  padding: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  min-height: 450px; /* altezza minima */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  flex-shrink: 0;
+}
+
+.product-card h3 {
+  margin-bottom: 10px;
+  flex-shrink: 0;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 10px;
+  flex-grow: 1; /* occupa spazio disponibile */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* massimo 4 righe visibili */
+  -webkit-box-orient: vertical;
+}
+
+.card-bottom {
+  margin-top: auto; /* spinge in fondo */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.product-card button {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.product-card button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.product-card button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.login-warning {
+  font-size: 0.8rem;
+  color: #c0392b;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+  .product-card {
+    min-height: auto;
+  }
+}
